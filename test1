@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int N1,N2,N3;
+	float AVG;
+	printf("enter number : ");
+    scanf("%d %d %d",&N1,&N2,&N3);
+	AVG=(N1+N2+N3)/3;
+	printf("AVG=%f" , AVG);
+	return 0;
+}
